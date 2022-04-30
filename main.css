@@ -92,7 +92,7 @@ footer {
 .social-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     color: white;
     list-style: none;
     width: 0%;
