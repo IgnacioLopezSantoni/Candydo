@@ -13,44 +13,24 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    flex-wrap: wrap;
-    flex-direction: row;
+p {
+    color: white;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+.custom-navbar {
+    background-color: rgb(20, 71, 54);
 }
 
-header nav ul li {
-    list-style: none;
-    margin-left: 40px;
+.custom-nav-link {
+    color: aquamarine !important;
 }
 
-header nav ul li a {
-    text-decoration: none;
-    color: aquamarine;
-    display: flex;
+.custom-navbar-brand {
+    color: rgb(119, 201, 141);
 }
 
-header nav ul li a:hover {
-    background-color: rgb(119, 201, 141);
-    color: rgb(12, 13, 13);
-}
-
-
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    z-index: 100;
+.custom-navbar-collapse {
+    justify-content: end;
 }
 
 .myicono {
@@ -62,7 +42,7 @@ header nav ul li a:hover {
 
 
 
-.container {
+.custom-container {
     /*width: 70%;*/
     width: 80vw;
     margin: auto;
@@ -73,12 +53,15 @@ header nav ul li a:hover {
     /*border: 1px solid rgb(116, 164, 53);*/
 }
 
-.container h2 {
+.custom-container h2 {
 
     font-size: 22px;
     margin-bottom: 20px;
 
+}
 
+#img-factory {
+    height: auto;
 }
 
 .controls {
@@ -109,7 +92,7 @@ footer {
 .social-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     color: white;
     list-style: none;
     width: 0%;
@@ -141,11 +124,7 @@ footer {
 .products {
     display: flex;
     justify-content: space-around;
-
 }
-
-
-
 
 .container-img {
     width: 100%;
@@ -249,7 +228,7 @@ footer {
         flex-direction: column;
     }
 
-    .container {
+    .custom-container {
         padding: 0;
         max-width: 100%;
     
@@ -260,11 +239,14 @@ footer {
         flex-direction: initial;
     }
 
-    .container img {
+    .custom-container img {
         flex: none;
 
     }
 
+    #home-info {
+        margin-top: 5%;
+    }
 
     .home-info-row {
         flex-direction: column;
@@ -311,29 +293,10 @@ footer {
 
     }
 
-    .container {
+    .custom-container {
         width: auto;
         padding: 5vw;
         
-    }
-
-    .navbar ul {
-
-        display: none;
-    }
-
-    .navbar ul a {
-        padding: 5px;
-        text-align: left;
-        width: 100%;
-    }
-
-    .myicono {
-        display: block;
-        text-align: right;
-    }
-    #navbar ul{
-        display: none;
     }
 
     #mapa{
