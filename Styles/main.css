@@ -1,0 +1,348 @@
+html,
+body {
+  background-color: #144736;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #77c98d;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+p {
+  color: white;
+}
+
+.custom-navbar {
+  background-color: #144736;
+  margin-bottom: 4vh;
+}
+
+.custom-nav-link {
+  color: aquamarine !important;
+}
+
+.custom-navbar-brand {
+  color: #77c98d;
+}
+
+.custom-navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.myicono {
+  color: aquamarine;
+  font-size: 1.5em;
+  padding: 10px;
+  display: none;
+}
+
+.custom-container {
+  width: 80vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.custom-container h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#img-factory {
+  height: auto;
+}
+
+.controls {
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 40px;
+  margin-bottom: 16px;
+  border: 100px;
+  outline: none;
+}
+
+.buttons {
+  background-color: #6b895c;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+}
+
+.form-links {
+  color: aquamarine;
+}
+
+footer {
+  background-color: #6b895c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  color: black;
+  text-decoration: none;
+  padding: 1px;
+}
+
+.social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  list-style: none;
+  width: 0%;
+  padding: 2%;
+}
+
+.social-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 25%;
+  min-height: auto;
+}
+
+.social-container p {
+  margin: 10px;
+}
+
+.social-logo {
+  width: 40px;
+  margin: 10px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+#image-cropper {
+  width: 300%;
+  overflow: hidden;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.product-cards {
+  background-color: #6b895c;
+  border-radius: 15px;
+}
+
+.product-cards img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.product-cards:hover {
+  outline: 2px #77c98d solid;
+  cursor: pointer;
+}
+
+.container-img {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 250px;
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+}
+
+.container-img .box-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.container-img .container-img:nth-child(1) {
+  -ms-grid-column: span 2;
+      grid-column-start: span 2;
+}
+
+.container-img .container-img :nth-child(4) {
+  -ms-grid-column: span 2;
+      grid-column-start: span 2;
+}
+
+.box-img-cropper {
+  width: 400px;
+  height: 220px;
+  overflow: hidden;
+}
+
+#main-img {
+  height: 400px;
+  width: auto;
+}
+
+#home-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-info-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.home-info-text {
+  width: 50%;
+}
+
+.home-info-text p {
+  margin-bottom: 15px;
+}
+
+#img-factory {
+  width: 45%;
+  height: auto;
+  margin: 80px 0;
+}
+
+#mapa {
+  width: 45%;
+  margin: 80px 0;
+  height: 393.75px;
+}
+
+.container-img-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .container-img {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    -ms-grid-rows: 200px;
+    grid-template-rows: 200px;
+  }
+  .container-img .box-img:nth-child(1) {
+    -ms-grid-column: span 1;
+        grid-column-start: span 1;
+  }
+  .products {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    -ms-grid-rows: 200px;
+    grid-template-rows: 200px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .product-cards {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  .custom-container {
+    padding: 0;
+    max-width: 100%;
+  }
+  .custom-container img {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .header {
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+  }
+  #home-info {
+    margin-top: 5%;
+  }
+  .home-info-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home-info-row-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .home-info-text {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #video {
+    height: 300px;
+    width: 100%;
+  }
+  #main-img {
+    height: auto;
+  }
+  #img-factory {
+    width: 100%;
+  }
+  #mapa {
+    width: 100%;
+  }
+  .controls {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-img {
+    width: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    -ms-grid-rows: 0px;
+    grid-template-rows: 0px;
+  }
+  .container-img .box-img :nth-child(1) {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+  }
+  .products {
+    width: auto;
+  }
+  .custom-container {
+    width: auto;
+    padding: 5vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */
