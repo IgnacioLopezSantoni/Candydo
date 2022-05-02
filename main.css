@@ -19,6 +19,7 @@ p {
 
 .custom-navbar {
     background-color: rgb(20, 71, 54);
+    margin-bottom: 4vh;
 }
 
 .custom-nav-link {
@@ -62,6 +63,7 @@ p {
 
 #img-factory {
     height: auto;
+    
 }
 
 .controls {
@@ -124,6 +126,21 @@ footer {
 .products {
     display: flex;
     justify-content: space-around;
+}
+
+.product-cards {
+    background-color: rgb(107, 137, 92);
+    border-radius: 15px;
+}
+
+.product-cards:hover {
+    outline: 2px rgb(119, 201, 141) solid;
+    cursor: pointer;
+}
+
+.product-cards img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .container-img {
@@ -221,11 +238,16 @@ footer {
     }
 
     .products {
-        width: 80%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
         grid-template-rows: 200px;
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .product-cards {
+        width: 300px;
+        margin-bottom: 15px;
     }
 
     .custom-container {
@@ -271,7 +293,9 @@ footer {
     }
     #img-factory{
         width: 100%;
-        margin-bottom: 15px;
+    }
+    #mapa{
+        width: 100%;
     }
 }
 
@@ -290,21 +314,10 @@ footer {
 
     .products {
         width: auto;
-
     }
 
     .custom-container {
         width: auto;
         padding: 5vw;
-        
     }
-
-    #mapa{
-        width: 90vw;
-    }
-    #mapa{
-       
-        margin-top: 30px;
-    }
-
 }
