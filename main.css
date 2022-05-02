@@ -63,18 +63,32 @@ p {
 
 #img-factory {
     height: auto;
-    
+
 }
 
 .controls {
 
-    width: 100%;
+    width: 50%;
     background-color: white;
     padding: 10px;
     border-radius: 40px;
     margin-bottom: 16px;
     border: 100px;
+    outline: none;
 
+}
+
+.buttons {
+    background-color:rgb(107, 137, 92) ;
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 25px;
+    border: none;
+    
+}
+.form-links{ 
+    color:aquamarine;
+    
 }
 
 
@@ -206,18 +220,21 @@ footer {
 .home-info-text p {
     margin-bottom: 15px;
 }
-#img-factory{
+
+#img-factory {
     width: 45%;
     height: auto;
     margin: 80px 0;
 }
-#mapa{
+
+#mapa {
     width: 45%;
     margin: 80px 0;
     height: 393.75px;
-    
+
 }
-.container-img-map{
+
+.container-img-map {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -253,7 +270,7 @@ footer {
     .custom-container {
         padding: 0;
         max-width: 100%;
-    
+
 
     }
 
@@ -291,11 +308,17 @@ footer {
     #main-img {
         height: auto;
     }
-    #img-factory{
+
+    #img-factory {
         width: 100%;
     }
-    #mapa{
+
+    #mapa {
         width: 100%;
+    
+    }
+    .controls {
+        width: 80%;
     }
 }
 
