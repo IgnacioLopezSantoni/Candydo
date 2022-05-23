@@ -280,15 +280,18 @@ body {
 }
 
 .red-twitter {
-  color: #0084ff;
+  -webkit-filter: brightness(0) saturate(100%) invert(46%) sepia(54%) saturate(7496%) hue-rotate(196deg) brightness(105%) contrast(102%);
+          filter: brightness(0) saturate(100%) invert(46%) sepia(54%) saturate(7496%) hue-rotate(196deg) brightness(105%) contrast(102%);
 }
 
 .red-facebook {
-  color: #052a4c;
+  -webkit-filter: brightness(0) saturate(100%) invert(12%) sepia(99%) saturate(878%) hue-rotate(176deg) brightness(94%) contrast(99%);
+          filter: brightness(0) saturate(100%) invert(12%) sepia(99%) saturate(878%) hue-rotate(176deg) brightness(94%) contrast(99%);
 }
 
 .red-instagram {
-  color: #dd208b;
+  -webkit-filter: brightness(0) saturate(100%) invert(24%) sepia(90%) saturate(2376%) hue-rotate(307deg) brightness(87%) contrast(100%);
+          filter: brightness(0) saturate(100%) invert(24%) sepia(90%) saturate(2376%) hue-rotate(307deg) brightness(87%) contrast(100%);
 }
 
 @media screen and (max-width: 992px) {
@@ -358,6 +361,7 @@ body {
   }
   .custom-container #main-img {
     height: auto;
+    width: 90vw;
   }
   .custom-container #img-factory {
     width: 100%;
