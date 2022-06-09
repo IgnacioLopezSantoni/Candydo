@@ -1,8 +1,8 @@
 html,
 body {
-  background-color: #144736;
+  background-color: #f5f1ea;
   font-family: Arial, Helvetica, sans-serif;
-  color: #77c98d;
+  color: #f5f1ea;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -22,23 +22,24 @@ body {
 }
 
 .custom-container p {
-  color: white;
+  color: black;
 }
 
 .custom-container .custom-navbar {
-  background-color: #144736;
+  background-color: #8d4747;
   margin-bottom: 4vh;
 }
 
 .custom-container .custom-navbar .custom-nav-link {
-  color: aquamarine !important;
+  color: #f5f1ea !important;
 }
 
 .custom-container .custom-navbar .custom-navbar-brand {
-  color: #77c98d;
+  color: #f5f1ea;
+  font-size: 50px;
 }
 
-.custom-container .custom-navbar .custom-navbar-collapse {
+.custom-container .custom-navbar .custom-navbar-brand .custom-navbar-collapse {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -50,7 +51,7 @@ body {
 
 .custom-container .controls {
   width: 50%;
-  background-color: white;
+  background-color: #72bcbd;
   padding: 10px;
   border-radius: 40px;
   margin-bottom: 16px;
@@ -59,7 +60,7 @@ body {
 }
 
 .custom-container .buttons {
-  background-color: #6b895c;
+  background-color: #72bcbd;
   color: white;
   padding: 10px 15px;
   border-radius: 25px;
@@ -67,7 +68,7 @@ body {
 }
 
 .custom-container .form-links {
-  color: aquamarine;
+  color: #72bcbd;
 }
 
 .custom-container footer {
@@ -84,7 +85,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  background-color: #6b895c;
+  background-color: #8d4747;
   color: black;
   text-decoration: none;
   padding: 1px;
@@ -120,6 +121,7 @@ body {
 
 .custom-container .social-container p {
   margin: 10px;
+  color: white;
 }
 
 .custom-container .social-logo {
@@ -150,7 +152,7 @@ body {
 }
 
 .custom-container .products .product-cards, .custom-container .products .news-cards {
-  background-color: #6b895c;
+  background-color: #8d4747;
   border-radius: 15px;
 }
 
@@ -160,8 +162,12 @@ body {
 }
 
 .custom-container .products .product-cards:hover, .custom-container .products .news-cards:hover {
-  outline: 2px #77c98d solid;
+  outline: 2px #bd7372 solid;
   cursor: pointer;
+}
+
+.custom-container .products .product-cards p, .custom-container .products .news-cards p {
+  color: #FFFFFF;
 }
 
 .custom-container .container-img {
